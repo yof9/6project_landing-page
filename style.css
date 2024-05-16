@@ -159,14 +159,14 @@ strong {
 }
 
 .action-call {
+    width: 75%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
     border-radius: 15px;
     color: #f9faf8;
-    padding: 50px 150px;
-    gap: 150px;
+    padding: 25px 75px;
 }
 
 .action-call button {
@@ -181,6 +181,7 @@ strong {
     flex-direction: column;
     gap: 12px;
     color: inherit;
+    flex-grow: 0;
 }
 .footer {
     display: flex;
