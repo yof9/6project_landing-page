@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid black;
+    outline: 1px solid red;
 }
 body, html {
     height: 100%;
 }
 body {
-    background-color: blanchedalmond;
     display: flex;
-    justify-content: center;
     align-items: stretch;
     flex-direction: column;
 }
@@ -20,3 +18,42 @@ body > div {
     padding: 10px 80px 0;
 }
 
+.header-container {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.header {
+    flex: 1;
+    display: flex;
+}
+.header img, .header nav {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    display: flex;    
+}
+
+.info-container span {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+
+}
