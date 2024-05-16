@@ -122,11 +122,15 @@ h1 {
     align-items: center;
 }
 
-.card-container > .card {
+.card-container > p, .card {
     width: 175px;
     height: 175px;
+    text-align: center;
+}
+.card {
     border-radius: 25px;
     border: 2px solid #3882f6;
+    margin-bottom: 16px;
 }
 
 .testimonial-container {
